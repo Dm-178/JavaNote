@@ -29,6 +29,7 @@ public class basic00
                     break loop;
             }
         }
+
         /*数组声明格式*/
         int[] a=new int[5];
     }

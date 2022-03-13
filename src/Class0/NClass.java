@@ -10,7 +10,7 @@ public class NClass
     {
         System.out.println(className);
         //静态方法属于一个类的也是所有对象的方法，不能调用某个对象的特有属性
-        //System.out.println(this.num);
+        //System.out.println(this.num); //错误的
     }
     /**构造方法*/
     //在实例化对象时会触发的方法
@@ -24,6 +24,7 @@ public class NClass
     {
         System.out.println("num="+x);
     }
+
     /**this的使用*/
     //通过this可以指代自己
     //this可以调用其他的构造方法

@@ -19,6 +19,7 @@ public class NClass1
         numPro=c;
         numPub=d;
     }               //构造方法初始化
+
     //类属性初始化有两种方法（没了构造函数法）
     static String name0="name";
 
@@ -27,6 +28,7 @@ public class NClass1
     {
         tags='t';
     }
+
     //执行顺序问题：先声明时的，然后是代码块的，最后是构造函数的
     /**修饰符*/
     //private:除了类内部，无法调用，无法继承
