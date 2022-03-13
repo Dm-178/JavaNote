@@ -19,6 +19,8 @@ public class StreamLearn2 {
                 if(str==null) break;
                 System.out.println(str);
             }*/
+
+            //flush : 立刻将 PrintStream中的字符写入硬盘
         }catch (IOException e) {
             e.printStackTrace();
         }
