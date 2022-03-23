@@ -9,8 +9,7 @@ public class thread0 implements Runnable{
         this.name = name;
     }
 
-    public thread0() {
-    }
+    public thread0() {}
 
     @Override
     public void run() {
