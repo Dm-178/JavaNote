@@ -32,7 +32,10 @@ public class MyClass {
         return type;
     }
 
-
+    public void Print(String str)
+    {
+        System.out.println(str);
+    }
 
     public static void main(String[] args) {
         try {
